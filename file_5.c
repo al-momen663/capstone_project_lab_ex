@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
-    struct student {
+    struct student
+    {
         int age;
         char name[30];
         int cgpa;
@@ -11,12 +13,14 @@ int main() {
     FILE *fptr;
 
     fptr = fopen("Program5.txt", "w");
-    if (fptr == NULL) {
+    if (fptr == NULL)
+    {
         printf("ERROR!!!\n");
         exit(1);
     }
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++)
+    {
         struct student student1;
 
         printf("Enter student %d information:\n", i + 1);
