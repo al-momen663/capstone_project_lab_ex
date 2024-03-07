@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 struct Circle {
     double radius;
 };
@@ -24,17 +23,12 @@ int main() {
     printf("Radius: ");
     scanf("%lf", &circle1.radius);
 
-
     printf("\nInput details for Circle 2:\n");
     printf("Radius: ");
     scanf("%lf", &circle2.radius);
-
-
     printf("\nCircle 1:\n");
     printf("Area: %.2lf\n", calculateArea(circle1));
     printf("Perimeter: %.2lf\n", calculatePerimeter(circle1));
-
-
     printf("\nCircle 2:\n");
     printf("Area: %.2lf\n", calculateArea(circle2));
     printf("Perimeter: %.2lf\n", calculatePerimeter(circle2));

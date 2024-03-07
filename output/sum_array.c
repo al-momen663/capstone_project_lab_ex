@@ -1,4 +1,5 @@
 /**
+ * Function problem 1
  * C program to find sum of array elements using recursion
  */
 
